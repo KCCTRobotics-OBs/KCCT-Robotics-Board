@@ -60,4 +60,4 @@ Issue や PR には以下のラベルを付けてください。
 
 ## 4. コミュニケーション
 
-質問がある場合は、[Discussions](https://github.com/KCCTRobotics-OBs/KCCT-Robotics-Board/discussions) を活用してください。
+質問がある場合は、[Discussions](https://github.com/KCCTRobotics-OBs/KCCT-Robotics-Board) を活用してください。
