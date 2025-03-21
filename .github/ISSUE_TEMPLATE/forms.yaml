@@ -1,6 +1,6 @@
 name: かんばん作成
 description: ToDo用のissue作成Form
-title: ""
+title: "タイトル："
 projects: ["KCCTRobotics-OBs/1"] ## プロジェクト名を指定((プロジェクトのオーガナイゼーションの名前)/(プロジェクトリンクの末尾の数字)を指定)
 
 body:
