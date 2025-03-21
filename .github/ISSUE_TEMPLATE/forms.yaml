@@ -1,0 +1,49 @@
+name: かんばん作成
+description: ToDo用のissue作成Form
+title: ""
+projects: ["KCCTRobotics-OBs/1"] ## プロジェクト名を指定((プロジェクトのオーガナイゼーションの名前)/(プロジェクトリンクの末尾の数字)を指定)
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご協力ありがとうございます！以下の情報を記入してください。
+  
+  - type: textarea
+    id: task-overview
+    attributes:
+      label: 概要
+      description: タスクの目的や背景を簡潔に説明してください。
+      placeholder: タスクの内容を記入してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: todo-list
+    attributes:
+      label: ToDoリスト
+      description: 各タスクをチェックボックス形式で記入してください。
+      placeholder: タスク
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: 進捗状況（ステータス）
+      options:
+        - To Do
+        - In Progress
+        - Done
+      default: 0  # インデックスの整数値を指定
+    validations:
+      required: true
+
+  - type: input
+    id: due_date
+    attributes:
+      label: 期限
+      description: このタスクの期限を指定してください。
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
