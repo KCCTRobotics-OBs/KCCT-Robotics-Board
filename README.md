@@ -1,6 +1,6 @@
-# R6_Shimizulab
+# KCCT_Roboticsかんばん方式ボード
 
-進捗報告用のリポジトリ
+進捗報告，タスク管理用のリポジトリ**（必ずプロジェクトも必須）**
 
 ## Why use repository and projects
 
@@ -12,7 +12,7 @@
 ## 使い方
 
 - タスク管理（To Do リスト）
-
+Githubプロジェクトのテンプレートを利用しています。こちらも日々アップデートがあるので
 [かんばん方式](https://lychee-redmine.jp/blogs/project/tips-kanban-methodology/)を採用しています．
 
 また，ガントチャートでタスクのリミットを見やすくしています．
@@ -20,13 +20,12 @@
 
 - 毎週の進捗報告
   毎週の進捗報告はMarkdownで記入してください．テンプレートは[こちら](https://github.com/KobeKosenRobotics/R6_Shimizulab/blob/main/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/templete.md)です．
-  ![スクリーンショット 2024-10-04 182353](https://github.com/user-attachments/assets/72ea84d8-960c-4f31-abc8-e181e17fdeea)
 
-ファイル内でカードの番号とちょっとした補足でできるようにしています．（Projectsのみで行ける場合はなくす可能性あり）MarkDown記法に関しては[こちら](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)を参考にしてください．（特殊文字は[こちら](https://qiita.com/inabe49/items/303afa114b0204da8a24)）
+  MarkDown記法に関しては[こちら](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)を参考にしてください．（特殊文字は[こちら](https://qiita.com/inabe49/items/303afa114b0204da8a24)）
 
 ### To Doリストの作成
 
-1. R6_Shimizulabのリポジトリであることを確認
+1. プロジェクトに対応したリポジトリであることを確認
 2. Issueボタンを押す
    ![スクリーンショット 2024-10-03 143504](https://github.com/user-attachments/assets/8bb27852-78b7-4ada-9ef3-06587009a80f)
 3. New issueを押す．
@@ -38,9 +37,19 @@
 6. 送信ボタンを押して，issueができていることを確認しする．以下のようなものができる．必要に応じて，右側の設定を行う．（ラベル，クラスター，ステータス，開始日，期限，マイルストーン）
 7. Done
 
+※もし，慣れてきて自分の作業リポジトリができた場合（ロボコンの場合はteamの制御リポジトリとか使う場合）
+1. 作業したいリポジトリの上側タブでProjectsを選択
+![スクリーンショット 2025-03-21 150830](https://github.com/user-attachments/assets/a7587fdd-60fe-475c-be39-7b4c5aca34d6)
+
+2. link a projectを押し，プロジェクト名を入力し，選択
+![スクリーンショット 2025-03-21 150840](https://github.com/user-attachments/assets/3818ff54-66ac-4882-8718-c603fa582e91)
+![スクリーンショット 2025-03-21 150854](https://github.com/user-attachments/assets/9db661eb-5713-4d36-a5f5-9b59df126b9a)
+
+3. これでISSUEを作った際にProjectに飛ぶようになる（またプロジェクトのカードからも変更できる）
+
 ### To Doリストの確認，タスクの進捗入力
 
-1. 上のタブからprojectsタブを押すと以下の画面になるので，R6_Shimizulabを押す．
+1. リポジトリの上のタブからprojectsタブを押すと以下の画面になるので，見たいプロジェクトを押す．
    ![スクリーンショット 2024-10-03 144130](https://github.com/user-attachments/assets/7936e9c6-cb43-42d8-8b0f-5413c6b9cb4f)
 2. Kanbanが出てくるので，ToDoのカラムの中から自分の現在行っているタスクを探して，選択する．
    ![スクリーンショット 2024-10-03 144142](https://github.com/user-attachments/assets/316daf5d-6307-4e49-9f45-841672187069)
@@ -54,6 +63,6 @@
 ## 注意
 
 - 毎週の進捗報告のために，作業したらgithubのissueを更新するように！！（ToDoカードやissueのコメント，ラベル等）
-- できるだけ，ほかの人のタスクの確認もするように（特に専攻科生）
+- できるだけ，ほかの人のタスクの確認もするように
 
-# みなさんでクリーンな研究室ライフを送れるように頑張っていきましょう！！
+# みなさんでクリーンなを送れるように頑張っていきましょう！！
